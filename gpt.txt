@@ -1,0 +1,128 @@
+Día 1–2
+
+Define:
+
+Nombre del negocio
+
+Qué vendes exactamente
+
+A quién le vendes
+
+Escribe el texto (aunque sea feo)
+
+Día 3–4
+
+Crea el proyecto web
+
+Estructura básica:
+
+index.html
+styles.css
+script.js
+
+Día 5–7
+
+Diseña 4 secciones:
+
+Hero
+
+Productos
+
+Nosotros
+
+Contacto
+
+Hazlo responsive (mobile primero)
+
+Día 8
+
+Publica en Netlify o Vercel
+
+Comparte el link y mejora
+
+
+
+
+
+
+
+
+
+1️⃣ Hero (arriba de todo)
+
+Objetivo: que en 5 segundos se entienda qué vendes y a dónde llegas.
+
+Ejemplo:
+
+Aguacates frescos directo del productor
+Envíos locales y a otros estados
+
+Botones:
+
+📲 Pedir por WhatsApp
+
+📦 Ver productos
+
+2️⃣ Productos
+
+Aquí no compliques:
+
+Aguacate Hass
+
+Aguacate criollo (si tienes)
+
+Cajas / mayoreo
+
+Cada producto con:
+
+Foto
+
+Breve descripción
+
+“Disponible para envío a otros estados”
+
+💡 El precio puede ser:
+
+visible
+
+o “Cotiza por WhatsApp”
+
+3️⃣ Envíos
+
+Esto es CLAVE para ti.
+
+Sección clara:
+
+Estados a los que envías
+
+Tiempos aproximados
+
+Empaque
+
+Cantidades mínimas
+
+Esto genera confianza inmediata.
+
+4️⃣ Sobre nosotros
+
+Humaniza el negocio:
+
+¿Desde cuándo vendes?
+
+¿De dónde vienen tus aguacates?
+
+¿Qué te diferencia?
+
+No marketing vacío. Real.
+
+5️⃣ Contacto
+
+Aquí cierras ventas.
+
+Botón WhatsApp grande
+
+Teléfono
+
+Email
+
+Horarios
