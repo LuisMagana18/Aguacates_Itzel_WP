@@ -46,6 +46,13 @@ img {
   background: transparent;
 }
 
+.navbar img {
+  max-height: 120px; /* Ajusta según el alto deseado de tu barra */
+  width: auto;      /* Mantiene la proporción original de la foto */
+  display: block;
+}
+
+
 .navbar.scrolled {
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(12px);
