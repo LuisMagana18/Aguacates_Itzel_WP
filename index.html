@@ -82,6 +82,45 @@
     </div>
   </section>
 
+  <!-- SECCIÓN DE GALERÍA / CARRUSEL -->
+  <section id="galeria" class="seccion-carrusel">
+    <div class="contenedor-carrusel">
+      <div class="texto-carrusel" style="text-align: center; margin-bottom: 2rem;">
+        <span style="color: #2b7a0b; font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">Directo de la huerta</span>
+        <h2 style="font-size: 2rem; color: #1a1a1a;">Galería de nuestros Aguacates</h2>
+      </div>
+      
+      <div class="carrusel-wrapper">
+        <div class="carrusel-track">
+          <!-- Imagen 1 -->
+          <div class="carrusel-slide">
+            <img src="img/abierto.jpeg" alt="Cajas de aguacates Itzel 1">
+          </div>
+          <!-- Imagen 2 -->
+          <div class="carrusel-slide">
+            <img src="img/lonjas.jpeg" alt="Cajas de aguacates Itzel 2">
+          </div>
+          <!-- Imagen 3 -->
+          <div class="carrusel-slide">
+            <img src="img/negro.jpeg" alt="Cajas de aguacates Itzel 3">
+          </div>
+          <!-- Imagen 4 -->
+          <div class="carrusel-slide">
+            <img src="img/horizontal.jpeg" alt="Cajas de aguacates Itzel 3">
+          </div>
+          <!-- Imagen 5 -->
+          <div class="carrusel-slide">
+            <img src="img/verdes.jpeg" alt="Cajas de aguacates Itzel 3">
+          </div>
+        </div>
+        <!-- Botones de navegación -->
+        <button class="btn-carrusel prev-btn" onclick="moverCarrusel(-1)">&#10094;</button>
+        <button class="btn-carrusel next-btn" onclick="moverCarrusel(1)">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+
   <!-- Envíos -->
   <section id="envios" class="section section-alt">
     <div class="section-container">
@@ -239,6 +278,30 @@
       observer.observe(el);
     });
   </script>
+
+
+<script>
+  let indiceCarrusel = 0;
+
+  function moverCarrusel(direccion) {
+    const track = document.querySelector('.carrusel-track');
+    const slides = document.querySelectorAll('.carrusel-slide');
+    const totalSlides = slides.length;
+
+    indiceCarrusel += direccion;
+
+    // Si pasamos la última foto, regresamos a la primera
+    if (indiceCarrusel >= totalSlides) {
+      indiceCarrusel = 0;
+    }
+    // Si vamos hacia atrás desde la primera, vamos a la última
+    if (indiceCarrusel < 0) {
+      indiceCarrusel = totalSlides - 1;
+    }
+
+    track.style.transform = `translateX(-${indiceCarrusel * 100}%)`;
+  }
+</script>
 
 </body>
 </html>
